@@ -16,3 +16,9 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+#document{
+    height:100%;
+    display:flex;
+    flex-direction:column;
+}

@@ -1,0 +1,17 @@
+﻿@model RPingGame.Models.Account
+
+<form action="/Account/Insert" method="post">
+	<label>帳號：</label>
+	<input type="text" asp-for="id">
+
+	<label>密碼：</label>
+	<input type="password" asp-for="pwd">
+
+	<label>名稱：</label>
+	<input type="text" asp-for="name">
+
+	<label>電話：</label>
+	<input type="number" asp-for="phone">
+
+	<button>submit</button>
+</form>
